@@ -1,9 +1,10 @@
+#ç”»å·ç§¯ç¤ºæ„å›¾çš„æ ¼å­ï¼Œå¹¶åœ¨æŒ‡å®šåŒºåŸŸä¸Šè‰²
 clear;clc;
-grid_number=18;%¸ñ×ÓÊı
-grid_length=10;%¸ñ×Ó¿í¶È
-wirewide=1;%Ïß¿í¶È
-start_color=4;%µÚ¼¸¸ñ¿ªÊ¼ÉÏÉ«
-number_color=5;%ÉÏÉ«¸ñÊı
+grid_number=18;%æ ¼å­æ•°
+grid_length=10;%æ ¼å­å®½åº¦
+wirewide=1;%çº¿å®½åº¦
+start_color=4;%ç¬¬å‡ æ ¼å¼€å§‹ä¸Šè‰²
+number_color=5;%ä¸Šè‰²æ ¼æ•°
 a=ones(grid_length*grid_number+wirewide,grid_length*grid_number+wirewide);
 a(grid_length*(start_color-1)+wirewide:grid_length*(start_color+number_color-1),...
     grid_length*(start_color-1)+wirewide:grid_length*(start_color+number_color-1))=0.75;
